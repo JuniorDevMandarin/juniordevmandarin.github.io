@@ -24,7 +24,9 @@
 
     <link rel="stylesheet" type="text/css" href="../static/parents_base.css">
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;600&display=swap" rel="stylesheet">
     <script type="text/javascript" src="../static/js/global_scripts.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10904711824"></script>
@@ -79,10 +81,10 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item mx-sm-5 active">
-                    <a class="nav-link" style="color: black" href="/parental">My School</a>
+                    <a class="nav-link" style="color: rgba(0,0,0,.55)" href="/parental">My School</a>
                 </li>
-                <li class="nav-item mx-sm-5">
-                    <a class="nav-link" style="color: black" href="/plans">Shedule a demo</a>
+                <li class="nav-item mx-sm-3">
+                    <a class="nav-link" style="color: rgba(0,0,0,.55)" href="/plans">Schedule a demo</a>
                 </li>
 
             </ul>
@@ -101,32 +103,31 @@
 
 
 <div class="card text-bg-dark">
-  <img style="width: 100%;
+    <img style="width: 100%;
   height: 100vh;
   object-fit: cover;
   object-position: center;" src="../static/img/pexels-max-fischer-5212335.png" class="card-img" alt="...">
 
 
+    <div class="card-img-overlay text-center">
 
 
-      <div class="card-img-overlay text-center">
-
-
-
-            <div class="containeer text-center px-0">
-              <div class="row">
+        <div class="containeer text-center px-0">
+            <div class="row">
                 <div class="col-sm-1 px-0"></div>
                 <div class="col-sm-10 px-0">
-                              <div class="containeer contone">
-                                  <h1 class="card-title hometext1">State-of-the-art educational game experiences that motivate children’s computational thinking development
-                                  </h1>
+                    <div class="containeer contone">
+                        <h1 class="card-title hometext1">State-of-the-art educational game experiences that motivate
+                            children’s computational thinking development
+                        </h1>
 
-                                  <h5 class="card-title hometext2">Are you an educator? Schedule a demo and discover what makes the Minicoders play to learn experience unique
-                                  </h5>
-                              </div>
-                              <div class="containeer contonebutton px-0">
-                                  <a href="{% url 'backoffice:scheduledemo' %}">
-                                    <button type="button" style="box-sizing: border-box;
+                        <h5 class="card-title hometext2">Are you an educator? Schedule a demo and discover what makes
+                            the Minicoders play to learn experience unique
+                        </h5>
+                    </div>
+                    <div class="containeer contonebutton px-0">
+                        <a href="{% url 'backoffice:scheduledemo' %}">
+                            <button type="button" style="box-sizing: border-box;
                                     width: 318px;
                                     height: 78.7px;
                                     background: #F06814;
@@ -136,64 +137,56 @@
                                     font-family: 'Inter';
                                     font-style: normal;
                                     font-weight: 600;
-                                    font-size: 24px;" class="btn btn-primary float-sm-start float-md-end float-lg-end float-xl-end">Schedule a demo!
-                                  </button>
-                                </a>
-                            </div>
+                                    font-size: 24px;"
+                                    class="btn btn-primary float-sm-start float-md-end float-lg-end float-xl-end">
+                                Schedule a demo!
+                            </button>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-sm-1 px-0"></div>
-              </div>
             </div>
+        </div>
 
 
-
-      </div>
-
-
-
+    </div>
 
 
 </div>
 
 
-
-
-            <div class="container text-center" style="background-color: white;">
-              <div class="row">
-                <div class="col-sm-12 col-md-4 mx-0 px-0">
-                </div>
-                <div class="col-sm-12 col-md-4 mx-0 px-0" style="padding-top: 5%;">
-                  <small style="font-family: 'Space Grotesk';font-style: normal;font-weight: 700;font-size: 48px;line-height: 42px;
+<div class="container text-center" style="background-color: white;">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 mx-0 px-0">
+        </div>
+        <div class="col-sm-12 col-md-4 mx-0 px-0" style="padding-top: 5%;">
+            <small style="font-family: 'Space Grotesk';font-style: normal;font-weight: 700;font-size: 48px;line-height: 42px;
                   /* or 88% */text-align: center;
                   /* Specific/Content/Content 2 */
                   color: #363D3F;">Why Minicoders?</small>
-                  <br>
-                  <img class="float-start px-5 mt-3" src="../static/img/arrow-right-down-orange.svg" alt="">
-                </div>
-                <div class="col-sm-12 col-md-4 mx-0 px-0">
-                  <img class="float-end" src="../static/img/faqs-header-bg.png" width="310px" alt="">
-                </div>
-              </div>
-            </div>
+            <br>
+            <img class="float-start px-5 mt-3" src="../static/img/arrow-right-down-orange.svg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-4 mx-0 px-0">
+            <img class="float-end" src="../static/img/faqs-header-bg.png" width="310px" alt="">
+        </div>
+    </div>
+</div>
 
 
-            <!-- ------------------first row------------------------------------------------------------------------- -->
+<!-- ------------------first row------------------------------------------------------------------------- -->
 
-            <div class="container px-5 text-center" style="background-color: #ffffff;">
-              <div class="row">
-                <div class="col-sm-12 col-md-4 mx-0 px-0">
-
-
+<div class="container px-5 text-center" style="background-color: #ffffff;">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 mx-0 px-0">
 
 
+            <div class="card border border-0 align-items-center mb-5">
 
-
-                  <div class="card border border-0 align-items-center mb-5">
-
-                          <img src="../static/img/homecardimg1.png" style="width: 395px;
+                <img src="../static/img/homecardimg1.png" style="width: 395px;
                          " class="card-img-top" alt="...">
 
-                          <h3 style="
+                <h3 style="
                           width: 377.41px;
                           left: 52px;
 
@@ -201,7 +194,7 @@
 
                           background: #FFFFFF;" class="mt-4 mb-5">Motivation</h3>
 
-                            <small class="" style="width: 345px;
+                <small class="" style="width: 345px;
                             height: 315px;
 
                             font-family: 'Inter';
@@ -222,30 +215,23 @@
 
                             flex: none;
                             order: 1;
-                            flex-grow: 0;">Kids want to play, and they want to play in today’s platforms. Minicoders offers game experiences in popular metaverses, like Roblox and Minecraft, so kids grow curious to learn about computational thinking while enjoying the platforms they love the most.
-                            </small>
-                  </div>
+                            flex-grow: 0;">Kids want to play, and they want to play in today’s platforms. Minicoders
+                    offers game experiences in popular metaverses, like Roblox and Minecraft, so kids grow curious to
+                    learn about computational thinking while enjoying the platforms they love the most.
+                </small>
+            </div>
 
 
+        </div>
+        <div class="col-sm-12 col-md-4 mx-0 px-0">
 
 
+            <div class="card border border-0 align-items-center">
 
-
-
-
-                </div>
-                <div class="col-sm-12 col-md-4 mx-0 px-0">
-
-
-
-
-
-                  <div class="card border border-0 align-items-center">
-
-                    <img src="../static/img/homecardimg2.png" style="width: 395px;
+                <img src="../static/img/homecardimg2.png" style="width: 395px;
                           " class="card-img-top" alt="...">
 
-                          <h3 style="
+                <h3 style="
                           width: 377.41px;
                           left: 52px;
 
@@ -253,7 +239,7 @@
 
                           background: #FFFFFF;" class="mt-4 mb-5">For everyone</h3>
 
-                          <small class="" style="width: 345px;
+                <small class="" style="width: 345px;
                           height: 243px;
 
                           font-family: 'Inter';
@@ -274,30 +260,24 @@
 
                           flex: none;
                           order: 1;
-                          flex-grow: 0;">Inclusiveness in a broad sense. We are commited to creating a learning environment that is welcoming and inclusive, genderless and accessible even to students with ADHD and Dyslexia.
-                            </small>
-                          </div>
+                          flex-grow: 0;">Inclusiveness in a broad sense. We are commited to creating a learning
+                    environment that is welcoming and inclusive, genderless and accessible even to students with ADHD
+                    and Dyslexia.
+                </small>
+            </div>
 
 
+        </div>
+        <div class="col-sm-12 col-md-4 mx-0 px-0">
 
 
-
-                </div>
-                <div class="col-sm-12 col-md-4 mx-0 px-0">
+            <div class="card border border-0 align-items-center">
 
 
-
-
-
-
-
-                  <div class="card border border-0 align-items-center">
-
-
-                    <img src="../static/img/homecardimg3.png" style="width: 395px;
+                <img src="../static/img/homecardimg3.png" style="width: 395px;
                           " class="card-img-top" alt="...">
 
-                          <h3 style="
+                <h3 style="
                           width: 377.41px;
                           left: 52px;
 
@@ -305,7 +285,7 @@
 
                           background: #FFFFFF;" class="mt-4 mb-5">Educational Standards</h3>
 
-                          <small class="" style="width: 345px;
+                <small class="" style="width: 345px;
                           height: 260px;
 
                           font-family: 'Inter';
@@ -326,43 +306,33 @@
 
                           flex: none;
                           order: 1;
-                          flex-grow: 0;">Our program follows the CSTA standards for K-12 level teaching, which are widely recognized as a gold standard in computer science education. As well as complying with indications by ISTE and The National Curriculum in England.
-                            </small>
-                  </div>
-
-
-
-
-
-
-
-
-                </div>
-
-              </div>
+                          flex-grow: 0;">Our program follows the CSTA standards for K-12 level teaching, which are
+                    widely recognized as a gold standard in computer science education. As well as complying with
+                    indications by ISTE and The National Curriculum in England.
+                </small>
             </div>
 
 
+        </div>
+
+    </div>
+</div>
 
 
-            <!-- ------------------------second row-------------------------------- -->
+<!-- ------------------------second row-------------------------------- -->
 
 
-            <div class="container text-center" style="background: #ffffff;">
-              <div class="row">
-                <div class="col-sm-12 col-md-4 mx-0 px-0">
+<div class="container text-center" style="background: #ffffff;">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 mx-0 px-0">
 
 
+            <div class="card border border-0 align-items-center">
 
-
-
-
-                  <div class="card border border-0 align-items-center">
-
-                          <img src="../static/img/homecardimg4.png" style="width: 395px;
+                <img src="../static/img/homecardimg4.png" style="width: 395px;
                          " class="card-img-top" alt="...">
 
-                          <h3 style="
+                <h3 style="
                           width: 377.41px;
                           left: 52px;
 
@@ -370,7 +340,7 @@
 
                           background: #FFFFFF;" class="mt-4 mb-5">Teacher guides</h3>
 
-                            <small class="" style="width: 345px;
+                <small class="" style="width: 345px;
                             height: 155px;
 
                             font-family: 'Inter';
@@ -391,30 +361,22 @@
 
                             flex: none;
                             order: 1;
-                            flex-grow: 0;">Educators are provided with confortable guides, and all the tools and resources they need to succeed in their role.
-                            </small>
-                  </div>
+                            flex-grow: 0;">Educators are provided with confortable guides, and all the tools and
+                    resources they need to succeed in their role.
+                </small>
+            </div>
 
 
+        </div>
+        <div class="col-sm-12 col-md-4 mx-0 px-0">
 
 
+            <div class="card border border-0 align-items-center">
 
-
-
-
-                </div>
-                <div class="col-sm-12 col-md-4 mx-0 px-0">
-
-
-
-
-
-                  <div class="card border border-0 align-items-center">
-
-                    <img src="../static/img/homecardimg5.png" style="width: 395px;
+                <img src="../static/img/homecardimg5.png" style="width: 395px;
                           " class="card-img-top" alt="...">
 
-                          <h3 style="
+                <h3 style="
                           width: 377.41px;
                           left: 52px;
 
@@ -422,7 +384,7 @@
 
                           background: #FFFFFF;" class="mt-4 mb-5">Teacher support</h3>
 
-                          <small class="" style="width: 345px;
+                <small class="" style="width: 345px;
                           height: 173px;
 
                           font-family: 'Inter';
@@ -443,30 +405,23 @@
 
                           flex: none;
                           order: 1;
-                          flex-grow: 0;">An open channel of continuous support for teachers so that they can prepare and conduct classes smoothly.
-                            </small>
-                          </div>
+                          flex-grow: 0;">An open channel of continuous support for teachers so that they can prepare and
+                    conduct classes smoothly.
+                </small>
+            </div>
 
 
+        </div>
+        <div class="col-sm-12 col-md-4 mx-0 px-0" style="margin-bottom: 280px;">
 
 
-
-                </div>
-                <div class="col-sm-12 col-md-4 mx-0 px-0" style="margin-bottom: 280px;">
+            <div class="card border border-0 align-items-center">
 
 
-
-
-
-
-
-                  <div class="card border border-0 align-items-center">
-
-
-                    <img src="../static/img/homecardimg6.png" style="width: 395px;
+                <img src="../static/img/homecardimg6.png" style="width: 395px;
                           " class="card-img-top" alt="...">
 
-                          <h3 style="
+                <h3 style="
                           width: 377.41px;
                           left: 52px;
 
@@ -474,7 +429,7 @@
 
                           background: #FFFFFF;" class="mt-4 mb-5">Automatic Assesment</h3>
 
-                          <small class="" style="width: 346px;
+                <small class="" style="width: 346px;
                           height: 175px;
 
                           font-family: 'Inter';
@@ -495,17 +450,17 @@
 
                           flex: none;
                           order: 1;
-                          flex-grow: 0;">Save time and effort evaluating, students get certified and automated assesment through the game experiences and activities.
+                          flex-grow: 0;">Save time and effort evaluating, students get certified and automated assesment
+                    through the game experiences and activities.
 
-                            </small>
-                  </div>
-
-
-
-                </div>
-
-              </div>
+                </small>
             </div>
+
+
+        </div>
+
+    </div>
+</div>
 
 <section class="mincod_is">
     <div class="container">
@@ -560,7 +515,7 @@
                 <div class="col-xl-1 col-md-1 col-sm1 align-items-center">
                     <h1 id="manifesto_h1">The Minicoders Manifesto</h1>
                 </div>
-                <video  class="col-xl-1 col-md-1 col-sm-1 align-items-center" id="video_manifest"
+                <video class="col-xl-1 col-md-1 col-sm-1 align-items-center" id="video_manifest"
                        controls poster="../static/img/thumb_manifest_video.jpg">
                     <source src="https://minicoders.com/minicoders_video_home_2.mov" type="video/mp4">
                 </video>
