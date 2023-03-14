@@ -2827,9 +2827,9 @@ p {
 
     .minicoders_is {
         position: absolute;
-        width: 1580px;
+        width: 401px;
         height: 612px;
-        top: 3892px;
+        top: 5101px;
         left: 1px;
         background-color: #f3eded;
         box-shadow: 0px 3px #d9d7d7;
@@ -2842,8 +2842,8 @@ p {
         height: 263px;
         background: #21222D;
         border-radius: 8px;
-        top: 3792px;
-        left: 28px;
+        top: -5px;
+        left: -57px;
     }
 
     #squar1 {
@@ -2858,8 +2858,8 @@ p {
         position: absolute;
         width: 369px;
         height: 211px;
-        left: 10px;
-        top: 4631px;
+        left: -180px;
+        top: 6474px;
     }
 
     #shedule_manifesto {
@@ -2874,6 +2874,16 @@ p {
         border-radius: 8px;
     }
 
+    .element.style {
+        bottom: 0px;
+        left: 18px;
+        position: absolute;
+        z-index: 1000;
+        border: 0px;
+        width: 35px;
+        height: 35px;
+    }
+
     #square_context {
         /* text-align: center; */
         position: absolute;
@@ -2884,8 +2894,8 @@ p {
         font-weight: 700;
         font-size: 16px;
         line-height: 40px;
-        left: 13px;
-        top: 23px;
+        left: -275px;
+        top: 232px;
         text-align: left;
         letter-spacing: -0.03em;
         color: #FFFFFF;
@@ -2895,7 +2905,8 @@ p {
         position: absolute;
         width: 157.26px;
         height: 136.26px;
-        left: 189px;
+        left: -612px;
+        top: 199px;
     }
 
     #shedule_butt2 {
@@ -2903,8 +2914,8 @@ p {
         position: absolute;
         width: 162px;
         height: 50.7px;
-        left: 94px;
-        top: 160px;
+        left: -512px;
+        top: 180px;
     }
 
     #shedule_text {
@@ -2921,47 +2932,47 @@ p {
         position: absolute;
         width: 144px;
         height: 56.47px;
-        top: 264px;
-        left: 25px;
+        top: 115px;
+        left: 260px;
     }
 
     #group179 {
         position: absolute;
-        width: 168px;
-        height: 76.47px;
-        top: 251px;
-        left: 214px;
+        width: 178px;
+        height: 94.47px;
+        top: 147px;
+        left: 390px;
     }
 
     #compliant_text {
         position: absolute;
         width: 178px;
         height: 47px;
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 18px;
         line-height: 24px;
         text-align: center;
         top: 624px;
-        left: 9px;
-        top: 425px;
+        left: 63px;
+        top: 309px;
     }
 
     #csta_img {
         position: absolute;
         width: 145px;
         height: 44.25px;
-        top: 459px;
-        left: 37px;
+        top: 478px;
+        left: 68px;
     }
 
     #iste_img {
         position: absolute;
-        width: 145px;
-        height: 137px;
-        top: 396px;
-        left: 230px;
+        width: 158px;
+        height: 152px;
+        top: 303px;
+        left: 184px;
     }
 
     #h1_minicoders_is {
@@ -2973,8 +2984,8 @@ p {
         font-weight: 700;
         font-size: 36px;
         line-height: 40px;
-        top: 183px;
-        left: 73px;
+        top: 117px;
+        left: 116px;
     }
 
     .manifesto {
@@ -2988,10 +2999,49 @@ p {
 
     #shapes_manifesto {
         position: absolute;
-        width: 1780px;
-        height: 502px;
-        left: -5px;
-        top: 4506px;
+        width: 100%;
+        height: 187px;
+        left: 76px;
+        top: 5644px;
+    }
+
+    #manifesto_title {
+        position: absolute;
+        width: 150px;
+        height: 46.81px;
+        margin-left: 106px;
+        margin-top: 653px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #8A9193;
+    }
+
+    #shapes_arrow_right {
+        position: absolute;
+        width: 39px;
+        height: 40px;
+        margin-left: -6px;
+        margin-top: 694px;
+    }
+
+    #manifesto_h1 {
+        position: absolute;
+        width: 375px;
+        height: 78.02px;
+        margin-left: 3px;
+        margin-top: 695px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #21222D;
     }
 
     #icons_styles {
@@ -3002,9 +3052,9 @@ p {
     #shedule_manifesto {
         box-sizing: border-box;
         position: absolute;
-        left: 112px;
+        left: -373px;
         right: 37.73%;
-        top: 4936px;
+        top: 6086px;
         background: #F16449;
         border: 1px solid #F16449;
         box-shadow: -3px 8px 8px rgb(0 0 0 / 25%);
