@@ -1581,7 +1581,7 @@ p {
 
 #square_context {
 
-    width: 566.45px;
+    max-width: 469.45000000000005px;
     height: 85.56px;
     display: block;
     font-family: 'Space Grotesk';
@@ -1589,15 +1589,10 @@ p {
     font-weight: 700;
     font-size: 29px;
     line-height: 40px;
-    /* or 125% */
-    margin-left: 350px;
+    margin-left: 422px;
     margin-top: -211px;
-
     text-align: right;
     letter-spacing: -0.03em;
-
-    /* Specific / Content / Content Inverse 1 */
-
     color: #FFFFFF;
 }
 
@@ -2172,7 +2167,7 @@ p {
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 25px;
     line-height: 60px;
     text-align: center;
     letter-spacing: -0.03em;
@@ -2270,6 +2265,7 @@ p {
         letter-spacing: -0.03em;
         color: #FFFFFF;
         text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        margin-top: -60px;
     }
 
     .hometext2 {
