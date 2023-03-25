@@ -3161,9 +3161,9 @@ p {
 
     #manifesto_title {
         position: absolute;
-        width: 150px;
+        width: 185px;
         height: 46.81px;
-        margin-left: 119px;
+        margin-left: 93px;
         margin-top: 172px;
         font-family: 'Inter';
         font-style: normal;
@@ -3171,7 +3171,7 @@ p {
         font-size: 16px;
         line-height: 24px;
         text-align: center;
-        color: #8A9193;
+        color: #8A9193
     }
 
     #shedule_manifesto {
@@ -3189,9 +3189,9 @@ p {
     #shedule_butt2 {
         box-sizing: border-box;
         position: absolute;
-        width: 215px;
+        width: 257px;
         height: 50.7px;
-        margin-left: 57px;
+        margin-left: 33px;
         top: 180px;
         font-size: 17px;
         /* text-align: center; */
