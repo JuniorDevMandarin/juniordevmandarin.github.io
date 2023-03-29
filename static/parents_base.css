@@ -3178,7 +3178,7 @@ p {
     #shedule_manifesto {
         box-sizing: border-box;
         position: absolute;
-        margin-left: 33px;
+        margin-left: 70px;
         /* right: 37.73%; */
         top: 6284px;
         background: #F06814;
@@ -3206,7 +3206,7 @@ p {
     #shedule_manifesto {
         box-sizing: border-box;
         position: absolute;
-        margin-left: 60px;
+        margin-left:  75px;
         /* right: 37.73%; */
         top: 6122px;
         background: #F06814;
@@ -4202,9 +4202,9 @@ p {
         display: flex;
         box-sizing: border-box;
         position: relative;
-        margin-left: -110px;
+        margin-left: -67px;
         margin-right: -49px;
-        max-width: 305px;
+        max-width: 216px;
         top: 992px;
         background: #F06814;
         border: 1px solid #F06814;
